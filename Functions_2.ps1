@@ -5,4 +5,4 @@ Param ($Name, $Runs, $Outs)
 $Avg = [int]($Runs / $Outs*100)/100
 Write-Output "$Name's Average = $Avg, $Runs, $Outs"
 }
-Get-BatAvg Bradman 6996 7
+Get-BatAvg Dudeguy 6996 7
